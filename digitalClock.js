@@ -9,7 +9,7 @@ function clock(){
     var ss = date.getSeconds();
     var dy = date.getDay();
     var imgArr = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg"]
-    document.body.style.backgroundImage = `url(../../asset/image/${imgArr[dy]})`
+    document.body.style.backgroundImage = `url(${imgArr[dy]})`
     var fullMon = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
     var fullDay = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     mo = fullMon[mo];
